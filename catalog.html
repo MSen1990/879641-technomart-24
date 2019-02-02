@@ -51,24 +51,47 @@
       <section class="block">
         <h2>ПЕРФОРАТОРЫ</h2>
         <section class="left-block">
-          <h3>ПРОИЗВОДИТЕЛИ:</h3>
-          <div class="manufacturers">
-            <ul class="manufacturers-list">
-              <li>BOSCH</li>
-              <li>ИНТЕРСКОЛ</li>
-              <li>MAKITA</li>
-              <li>DEWALT</li>
-              <li>HITACHI</li>
-            </ul>
-          </div>
-          <h3>ПИТАНИЕ:</h3>
-          <div class="nutrition">
-            <ul class="nutrition-list">
-              <li>АККУМУЛЯТОРНЫЕ</li>
-              <li>СЕТЕВЫЕ</li>
-              <li><a href="#">Показать</a></li>
-            </ul>
-          </div>
+          <form action="#" method="post">
+            <h3>ПРОИЗВОДИТЕЛИ:</h3>
+            <div class="manufacturers">
+              <ul class="manufacturers-list">
+                <li>
+                  <input type="checkbox" name="firm1" id="fir1" value="BOSCH" checked>
+                  <label for="fir1">BOSCH</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="firm2" id="fir2" value="ИНТЕРСКОЛ">
+                  <label for="fir2">ИНТЕРСКОЛ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="firm3" id="fir3" value="MAKITA" checked>
+                  <label for="fir3">MAKITA</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="firm4" id="fir4" value="DEWALT">
+                  <label for="fir4">DEWALT</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="firm5" id="fir5" value="HITACHI">
+                  <label for="fir5">HITACHI</label>
+                </li>
+              </ul>
+            </div>
+           <h3>ПИТАНИЕ:</h3>
+            <div class="nutrition">
+              <ul class="nutrition-list">
+                <li>
+                  <input type="radio" name="nutrition" id="nut1" value="АККУМУЛЯТОРНЫЕ" checked>
+                  <label for="nut1">АККУМУЛЯТОРНЫЕ</label>
+                </li>
+                <li>
+                  <input type="radio" name="nutrition" id="nut2" value="СЕТЕВЫЕ">
+                  <label for="nut2">СЕТЕВЫЕ</label>
+                </li>
+                <li><a href="#">Показать</a></li>
+              </ul>
+            </div>
+          </form>
           <section class="right-block">
             <h2 class="visually-hidden">Список перфоратороф</h2>
             <ul class="tool">
@@ -129,7 +152,12 @@
             </ul>
           </section>
         </section>
-        
+        <div class="to-order-popup">
+          <button class="to-order-popup-closed" type="button">закрыть</button>
+          <span>Товар добавлен в корзину!</span>
+          <a href="#" class="order">Оформить заказ</a>
+          <a href="#" class="purchases">Продолжить покупки</a>
+        </div>
       </section>
   		
   	</main>
