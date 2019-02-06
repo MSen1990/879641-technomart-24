@@ -3,23 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   	<header class="main-header">
-  		<div>
+  		<div class="main-header-top">
   		    <a class="main-header-logo">
   			   <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип техномарта">
   		    </a>
   		    <p><input type="search" name="Поиск:">Поиск</p>
-  		    <a href="#" class="bookmarks">Закладки:0</a>
-  		    <a href="#" class="basket">Корзина:0</a>
-  		    <a href="#" class="order">Оформить заказ</a>
+  		    <div class="list-act">
+  		    	<a href="#" class="bookmarks">Закладки:0</a>
+  		        <a href="#" class="basket">Корзина:0</a>
+  		        <a href="#" class="order">Оформить заказ</a>
+  		    </div>
   		</div>
   		<div class="midlle">
   		    <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
   		    <p>+7 (812) 555-05-55</p>
   		    <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-  		    <ul>
+  		    <ul class="user">
   		    	<li class="login-lin"><a href="#">Войти</a></li>
   		    	<li class="check-in"><a href="#">Регистрация</a></li>
   		    </ul>
@@ -158,7 +164,7 @@
   			</div>
   		</section>
   		<section class="company">
-  			<h2 class="company-techno">КОМПАНИЯ «Техномарт»</h2>
+  			<h2>КОМПАНИЯ «Техномарт»</h2>
   			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
   			<p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
   			Техномарт работает со многими транспортными компаниями:</p>
@@ -214,7 +220,7 @@
   		<div class="footer-bottom">
   			<p>© 2010–2019 Компания «Техномарт»<br> Все права защищены</p>
   			<div class="footer-social">
-  		        <ul>
+  		        <ul class="social">
   		          <li><a class="social-button" href="#"><img src="vk-icon.svg" width="26" height="15" alt="Вконтакте"></a></li>
                   <li><a class="social-button" href="#"><img src="fb-icon.svg" width="12" height="22" alt="Фейсбук"></a></li>
                   <li><a class="social-button" href="#"><img src="insta-icon.svg" width="21" height="21" alt="Инстограмм"></a></li>

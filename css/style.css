@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header{
+	background-color: #f2f6f8;
+}
+
+h1{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.midlle p{
+	color: #ee3643;
+	font-size: 21px;
+}
+
+.list-act a,
+.main-header-top p{
+	color:#ffffff; 
+}
+
+.midlle address{
+	color: #32425c;
+	font-size: 14px;
+	font-style:normal;
+}
+
+.footer-top address{
+	font-style:normal;
+	font-size: 18px;
+}
+
+.main-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.user,
+.site-navigation,
+.range-main,
+.tool-main,
+.popular-manufacturers-list,
+.choose,
+.info,
+.footer-site-navigation,
+.footer-site-navigation-below,
+.social,
+main ul,
+.user-name{
+	list-style: none;
+}
+
+.user a{
+	color: #000000;
+	font-size: 24px;
+}
+
+.site-navigation a,
+.range-main a,
+.button-popular-goods,
+.button-popular-manufacturers,
+.request,
+.button-details,
+.button-map,
+.footer-site-navigation a{
+	color: #ffffff;
+}
+
+.breadcrumbs a,
+.nutrition-list a,
+.sort-list a,
+.active a{
+	color: #000000;
+}
+
+.footer-site-navigation-below a,
+.footer-copyright a{
+	color: #ffd180;
+}
+
+.user a:hover,
+.user a:focus{
+	color: #ee3643;
+}
+
+.footer-site-navigation a:hover,
+.footer-site-navigation-below a:hover,
+.footer-copyright a:hover,
+.footer-site-navigation a:focus,
+.footer-site-navigation-below a:focus,
+.footer-copyright a:focus{
+	text-decoration:underline;
+}
+
+.company h2,
+.contacts h2{
+	font-size: 30px;
+	font-family: "Cuprum", Arial, sans-serif;
+}
+
+.contacts p,
+.company p{
+	font-size: 13px;
+	font-family: "Cuprum", Arial, sans-serif;
+}
+
+.info{
+	font-size: 18px;
+}
+
+.main-header-top{
+	background-color: #293449;
+}
+
+.footer-top{
+	background-color: #32425c;
+}
+
+.footer-bottom{
+	background-color: #293449;
+}
+
+.footer-site-navigation a,
+.footer-site-navigation-below a,
+.footer-top address{
+	font-size: 18px;
+}
+
+.footer-bottom p{
+	font-size: 16px;
+}
+
+.word-about{
+	background-color: #f2f6f8;
+}
+
+.word-about h2{
+	font-size: 30px;
+}
+
+.word-about p{
+	font-size: 13px;
+}
+
+.perforators-style h2{
+	font-size: 30px;
+}
+
+.perforators-style{
+	background-color: #f2f6f8;
+}
+
+.visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0000);
+	overflow: hidden;
+}
+
+.left-block h3{
+	font-size: 17px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 700;
+}
+
+.right-block h3{
+	font-size: 18px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.old{
+	font-size: 17px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 700;
+	line-height: 18px;
+	text-decoration:line-through;
+	color: #999999;
+}
+
+.new{font-size: 17px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 700;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+ul .button-active1{
+	font-size: 14px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+ul .button-active2{
+	font-size: 14px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	color: #32425c;
+}
+
+form ul{
+	font-size: 15px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+	color: #000000;
+}
+
+.nutrition-list a{
+	font-size: 13px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+	color: #000000;
+}
+
+.name a{
+	font-size: 21px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 21px;
+	color: #000000;
+}
+
+.orders a,
+.cabinet a{
+	font-size: 16px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	color: #32425c;
+	text-decoration:underline;
+}
+
+.orders a:hover,
+.orders a:focus,
+.cabinet a:hover,
+.cabinet a:focus{
+	color: #ee3643;
+}
+
+.forms,
+.popup-map,
+.to-order-popup{
+	display: none
+}
