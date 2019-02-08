@@ -7,7 +7,6 @@ body {
   line-height: 18px;
   font-weight: 400;
   color: #000000;
-  text-transform: uppercase;
 
   background-color: #ffffff;
 }
@@ -25,22 +24,33 @@ h1{
 	font-weight: 400;
 	font-style: italic;
 	color: #ee3643;
+	line-height: 23px;
+	font-family:"Cuprum", Arial, sans-serif;
 }
 
 .midlle p{
 	color: #ee3643;
 	font-size: 21px;
+	line-height: 21px;
+	font-weight: 400;
+	font-family:"Cuprum", Arial, sans-serif;
+
 }
 
 .list-act a,
 .main-header-top p{
-	color:#ffffff; 
+	color:#ffffff;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family:"Cuprum", Arial, sans-serif;  
 }
 
 .midlle address{
 	color: #32425c;
 	font-size: 14px;
 	font-style:normal;
+	line-height: 24px;
 }
 
 .footer-top address{
@@ -73,10 +83,20 @@ main ul,
 
 .user a{
 	color: #000000;
-	font-size: 24px;
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 400;
+}	
+
+.site-navigation a{
+	color:#ffffff;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 400;
+
 }
 
-.site-navigation a,
+
 .range-main a,
 .button-popular-goods,
 .button-popular-manufacturers,
@@ -117,16 +137,24 @@ main ul,
 .contacts h2{
 	font-size: 30px;
 	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 30px;
+	text-transform: uppercase; 
+	font-weight: 400;
 }
 
 .contacts p,
 .company p{
 	font-size: 13px;
-	font-family: "Cuprum", Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
+	line-height: 24px;
+	font-weight: 400;
 }
 
-.info{
+.info li{
 	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: "PT Sans", Arial, sans-serif;
 }
 
 .main-header-top{
@@ -143,12 +171,35 @@ main ul,
 
 .footer-site-navigation a,
 .footer-site-navigation-below a,
-.footer-top address{
+.footer-top address,
+.footer-top p{
 	font-size: 18px;
+	line-height: 24px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-family: 400;
 }
 
-.footer-bottom p{
+.footer-top address,
+.footer-top p{
+	color:#ffffff;
+}
+
+.footer-bottom p,
+.footer-copyright b{
 	font-size: 16px;
+	line-height: 18px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-family: 400;
+	color:#ffffff;
+}
+
+
+.breadcrumbs a{
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-family: 400;
+	text-transform: uppercase;
 }
 
 .word-about{
@@ -165,6 +216,9 @@ main ul,
 
 .perforators-style h2{
 	font-size: 30px;
+	color: #32425c;
+	line-height: 30px;
+	font-weight: 400;
 }
 
 .perforators-style{
@@ -186,6 +240,16 @@ main ul,
 	font-size: 17px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 700;
+	line-height: 30px;
+}
+
+.checkbox,
+.nut1,
+.nut2{
+	font-size: 15px;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 20px;
 }
 
 .right-block h3{
@@ -239,8 +303,9 @@ form ul{
 	font-size: 13px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 18px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 .name a{
