@@ -33,7 +33,7 @@ h1{
 	width: 210px;
 
 	margin-left: 53px;
-	margin-top: 54px; 
+	margin-top: 53px; 
 }
 
 .midlle p{
@@ -94,6 +94,29 @@ main ul,
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: 400;
+
+	display: block;
+
+	margin: 0;
+	padding: 0;
+}
+
+.check-in{
+	width: 150px;
+	height: 45px;
+	margin: 0;
+	padding: 12px 25px;
+
+	background-color: #ffffff;
+}
+
+.login-lin{
+	max-width: 121px;
+	height: 45px;
+	margin: 0;
+	padding: 12px 25px;
+
+	background-color: #ffffff;
 }	
 
 .site-navigation a{
@@ -167,6 +190,10 @@ main ul,
 
 .main-header-top{
 	background-color: #293449;
+
+	margin: 0;
+	padding: 0;
+	min-height: 42px;
 }/* */
 
 .footer-top{
@@ -236,15 +263,21 @@ main ul,
 	min-height: 89px;
 }
 
-.visually-hidden{
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	clip: rect(0000);
-	overflow: hidden;
+
+.visually-hidden:not(:focus):not(:active){
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .left-block h3{
@@ -368,6 +401,8 @@ main > * > * > * {
 .main-header{
 	margin-bottom: 59px;
     min-height: 320px;
+    margin: 0;
+	padding:0;
 }
 
 .user{
@@ -378,8 +413,10 @@ main > * > * > * {
 
 .site-navigation{
 	margin: 0;
-	padding:0;
+	padding:0; 
+
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	
 }
@@ -387,9 +424,11 @@ main > * > * > * {
 .header-bottom{
 	margin: 0 auto;
 	padding:0 10px;
-	min-height: 60px;
+	min-height: 55px;
 	width: 940px;
+	
 	background-color: #32425c;
+	border-bottom: 5px solid #293449;
 }
 
 .midlle{
@@ -407,27 +446,36 @@ main > * > * > * {
 .block-top{
 	min-height: 42px;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .container-top{
 	width: 940px;
+	height: 42px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     padding:0 10px;
-}
 
-.list-act{
-	align-self: center;
+    justify-content: space-between;
 }
 
 .site-navigation li{
-	padding: 20px;
+	padding: 0;
+	margin: 0;
 }
 
-.list-act{
-	margin-left: 370px; 
+.site-navigation a{
+	display: block;
+
+	padding: 19px 31px;
 }
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	background-color: #293449;
+} 
 
 .container-footer{
 	padding:0 10px;
@@ -523,7 +571,6 @@ main > * > * > * {
 
 .left-block{
 	display: flex;
-	width: 220px;
 	min-height: 1202px;
 	padding: 0;
 	margin: 0;
@@ -589,4 +636,123 @@ main > * > * > * {
 .block{
 	padding: 0;
 	margin: 0;
+}
+
+
+/*  7 лекция   */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header-logo{
+	display: block;
+
+	width: 220px;
+	height: 42px;
+	margin: 0;
+	padding: 0;
+
+	background-color: #ee3643;
+	border-bottom: 5px solid #b52933;
+
+}
+
+.main-header-logo:hover,
+.main-header-logo:focus{
+	background-color: #ca2c37;
+}
+
+.main-header-logo img{
+	padding: 13px 55px 11px 55px;
+	margin: 0;
+}
+
+.list-act{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.order{
+	background-color: #63a63e;
+	
+	padding: 12px 22px;
+    margin: 0;
+}
+
+.order:hover,
+.order:focus{
+	background-color: #5fbb2d;
+}
+
+.basket{position: relative;
+
+	padding: 12px 31px 12px 55px; 
+	margin: 0;
+    max-width: 155px;
+}
+
+.basket::before{
+	content: "";
+
+	width: 15px;
+	height: 15px; 
+
+	position: absolute;
+	top: 10px;
+	left: 15px;
+
+	background-image: url(".img/cart-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: red;
+
+	opacity: 1; 
+
+}
+
+.basket:hover,
+.basket:focus{
+	background-color: #212a3a;
+}
+
+.bookmarks{
+	padding: 12px 23px 12px 44px;
+	margin: 0;
+	max-width: 145px;
+
+	position: relative;
+}
+
+.bookmarks::before{
+	content: "";
+
+	width: 14px;
+	height: 16px; 
+
+	position: absolute;
+	top: 12px;
+	left: 17px;
+
+	background-image: url(".img/cart-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: red;
+
+}
+
+.bookmarks:hover,
+.bookmarks:focus{
+	background-color: #212a3a;
+}
+
+.container-top p{
+	margin: 0;
+	padding: 0;
+}
+
+.main-header{
+	padding-bottom: 60px;
 }
