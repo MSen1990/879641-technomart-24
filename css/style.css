@@ -130,7 +130,7 @@ main ul,
 	width: 121px;
 	height: 45px;
 	margin: 0;
-	padding: ;
+	padding:0;
 
 	background-color: #ffffff;
 }	
@@ -138,7 +138,7 @@ main ul,
 .login-lin a{
 	position: relative;
 
-	padding: 12px 10px 12px 27px;
+	padding: 12px 10px 12px 47px;
 }
 
 .login-lin a > svg{
@@ -153,21 +153,15 @@ main ul,
 	color: #c5c5c5
 }
 
-/*
-.login-lin a::before{
-	content: "";
-
-	width: 20px;
-	height: 17px; 
-
+.login-lin svg{
 	position: absolute;
-	top: 13px;
-	left: 15px;
-
-	background-image: url("../img/icon-login.svg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}*/
+	content: "";
+    top: 13px;
+    left: 15px;
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+}
 
 .site-navigation a{
 	color:#ffffff;
@@ -269,7 +263,7 @@ main ul,
 	font-size: 18px;
 	line-height: 24px;
 	font-family: "Cuprum", Arial, sans-serif;
-	font-family: 400;
+	font-weight: 400;
 }
 
 .footer-top address,
@@ -297,7 +291,7 @@ main ul,
 	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", Arial, sans-serif;
-	font-family: 400;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
@@ -1155,7 +1149,7 @@ label, a{
 	height: 143px;
 	border: 1px solid #eaeaea;
 
-	padding: auto;
+	padding: 0;
 	margin-top: 20px;
 
 	text-align:center;
@@ -2505,7 +2499,8 @@ input[type="search"]:active + .search-leb svg{
 
 input[type="search"]{
 	width: 267px;
-	padding: 30px 0 11px 49px;
+	padding: 11px 0 11px 49px;
+	margin: 0 0 0 0;
 
 	cursor: pointer;
 
@@ -2515,24 +2510,6 @@ input[type="search"]{
 
 	border: none;
 }
-
-/*
-.search-leb{
-	content: "";
-
-	position: absolute;
-	top: 12px;
-	left: 17px;
-
-	width: 17px;
-	height: 17px;
-
-	background-image: url("../img/icon-search.svg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-
-	opacity: 0.3;
-}*/
 
 .telephone{
 	position: relative;
@@ -2600,28 +2577,12 @@ input[type="search"]{
 
     display: block;
 
-    padding: 12px 21px 11px 27px;
+    padding: 12px 21px 11px 48px;
 	margin: 0;
 
 	background:#ffffff;
 	background-repeat: repeat;	
 }
-
-
-/*
-.name a::before{
-	position: absolute;
-	content: "";
-	top:13px;
-	left:13px;
-
-	width: 20px;
-    height: 20px;
-
-	background-image: url(../img/icon-user.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}*/
 
 .name svg{
 	color: #c5c5c5;
@@ -2638,24 +2599,6 @@ input[type="search"]{
 .name a:active{
 	color: #c5c5c5;
 }
-
-
-
-
-/*
-.name a::after{
-	position: absolute;
-	content: "";
-	top:13px;
-	left:270px;
-
-	width: 20px;
-    height: 20px;
-
-	background-image: url(../img/icon-logout.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}*/
 
 .basket-active{
 	background-color: #ee3643;
@@ -3143,3 +3086,35 @@ input[type="search"]{
 
     transform: rotate(-45deg);
 }
+
+
+.search-leb svg{
+	position: absolute;
+	content: "";
+    top: 10px;
+    left: 15px;
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+}
+
+.name svg:nth-child(1){
+	position: absolute;
+	content: "";
+    top: 10px;
+    left: 15px;
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+}
+
+.name svg:nth-child(2){
+	position: absolute;
+	content: "";
+    top: 12px;
+    left: 269px;
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+}
+
