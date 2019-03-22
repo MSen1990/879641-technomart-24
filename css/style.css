@@ -87,8 +87,6 @@ a {
 
 .telephone p {
 	margin: 10px 42px 9px 72px;
-
-	x-ms-format-detection:none;
 }
 
 .user {
@@ -99,10 +97,10 @@ a {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: end;
-	    -ms-flex-pack: end;
-	        justify-content: flex-end;
+		-ms-flex-pack: end;
+	justify-content: flex-end;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+		flex-wrap: wrap;
 }
 
 .user li {
