@@ -383,7 +383,7 @@ a {
 	color: #ffffff;
 }
 
-ul .button-active1 {
+.button-active1 {
 	font-size: 14px;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
@@ -391,7 +391,7 @@ ul .button-active1 {
 	color: #ffffff;
 }
 
-ul .button-active2 {
+.button-active2 {
 	font-size: 14px;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
@@ -495,10 +495,10 @@ ul .button-active2 {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+		-ms-flex-pack: justify;
+			justify-content: space-between;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+		flex-wrap: wrap;
 	
 	padding-bottom: 12px;
 }
@@ -937,7 +937,7 @@ ul .button-active2 {
 	background-color: #bebebe;
 }
 
-.all input {
+.all input[type="radio"] {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -1203,7 +1203,10 @@ ul .button-active2 {
 }
 
 .container-popular-goods {
-	padding: 29px 0 29px 28px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 11px 0 26px 0;
 	margin: 0;
 	margin-bottom: 20px;
 	background-color: #f9f5f0;
@@ -1218,7 +1221,7 @@ ul .button-active2 {
 	text-transform: uppercase;
 	color:#32425c;
 
-	margin: 0;
+	margin: 18px 0 0 28px;
 	padding:0;
 
 	display: inline-block;
@@ -1231,12 +1234,14 @@ ul .button-active2 {
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
+	text-align: center;
 
 	display: inline-block;
 	vertical-align: top;
 
-	padding: 11px 55px 9px;
-	margin: -5px 0 -3px 368px;
+	width: 233px;
+	padding: 11px 10px 9px;
+	margin: 13px 24px 0 0;
 
 	background-color: #ee3643;
 	border-radius: 4px;
@@ -1296,8 +1301,12 @@ ul .button-active2 {
 }
 /*  class="popular-manufacturers  */
 .container-popular-manufacturers {
-	padding: 30px 0 10px 28px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 14px 0 25px 0;
 	margin: 0;
+	margin-bottom: -1px;
 	background-color: #f9f5f0;
 }
 
@@ -1313,7 +1322,7 @@ ul .button-active2 {
 	display: inline-block;
 	vertical-align: top;
 
-	margin: 0;
+	margin: 16px 0 0 28px;
 	padding: 0;
 }
 
@@ -1323,12 +1332,14 @@ ul .button-active2 {
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
+	text-align: center;
 
 	display: inline-block;
 	vertical-align: top;
 
-	padding: 11px 70px 9px 69px;
-	margin: -36px 0 0 635px;
+	width: 233px;
+	padding: 11px 10px;
+	margin: 10px 24px 0 0;
 
 	background-color: #ee3643;
 	border-radius: 4px;
@@ -1970,7 +1981,7 @@ ul .button-active2 {
 	margin: 4px 0 0 2px;
 }
 
-li .by-price {
+.by-price {
 	color: #ee3643;
 
 	margin-right: 70px;
@@ -1982,7 +1993,7 @@ li .by-price {
 	border-bottom: 1px solid #ee3643;
 }
 
-li .type {
+.type {
 	opacity: 0.3;
 
 	border-bottom: 1px dotted #ee3643;
@@ -1990,7 +2001,7 @@ li .type {
 	margin-right: 65px;
 }
 
-li .functionad {
+.functionad {
 	opacity: 0.3;
 	
 	border-bottom: 1px dotted #ee3643;
@@ -2021,7 +2032,7 @@ li .functionad {
 	border-top: 9px solid #c5c5c5;
 }
 
-li .up:hover {
+.sort-list .up:hover {
 	display: inline-block;
 	vertical-align: top;
 	width: 0px;
@@ -2033,7 +2044,7 @@ li .up:hover {
 	border-bottom: 9px solid #000000;
 }
 
-li .down:hover {
+.sort-list .down:hover {
 	display: inline-block;
 	vertical-align: top;
 	width: 0px;
@@ -2787,7 +2798,8 @@ li .down:hover {
 .order {
 	background-color: #63a63e;
 	
-	padding: 12px 22px 12px 20px;
+	width: 150px;
+	padding: 12px 0 12px 0;
 	margin: 0;
 	text-align: center;
 }
@@ -2804,9 +2816,8 @@ li .down:hover {
 .basket {
 	position: relative;
 
-	padding: 12px 1px 12px 49px; 
+	padding: 12px 0 12px 50px; 
 	margin: 0;
-
 	width: 100px;
 }
 
@@ -2840,7 +2851,8 @@ li .down:hover {
 }
 
 .bookmarks {
-	padding: 12px 28px 12px 44px;
+	width: 105px;
+	padding: 12px 0 12px 45px;
 	margin: 0;
 
 	position: relative;
@@ -2871,13 +2883,13 @@ li .down:hover {
 	opacity: 0.5;
 }
 
-input[type="search"]:hover,
-input[type="search"]:focus,
+.site-search:hover,
+.site-search:focus,
 .bookmarks:hover {
 	background-color: #212a3a;
 }
 
-input[type="search"]:hover + .search-leb {
+.site-search:hover + .search-leb {
 	opacity: 1;
 }
 
@@ -2887,8 +2899,8 @@ input[type="search"]:hover + .search-leb {
 	color:#999ca1;
 }
 
-input[type="search"]:active,
-input[type="search"]:focus {
+.site-search:active,
+.site-search:focus {
 	background-color: #ffffff;
 }
 
@@ -2913,17 +2925,17 @@ input[type="search"]:focus {
 	opacity: 0.3;
 }
 
-input[type="search"]:hover + .search-leb svg {
+.site-search:hover + .search-leb svg {
 	opacity: 1;
 }
 
-input[type="search"]:focus + .search-leb svg,
-input[type="search"]:active + .search-leb svg {
+.site-search:focus + .search-leb svg,
+.site-search:active + .search-leb svg {
 	color: #ee3643;
 	opacity: 1;
 }
 
-input[type="search"] {
+.site-search {
 	width: 100%;
 	padding: 11px 0 11px 48px;
 	margin: 0 0 0 0;
@@ -2941,19 +2953,19 @@ input[type="search"] {
 	font-family: "Cuprum","Arial",sans-serif;
 }
 
-input[type="search"]::-webkit-input-placeholder {
+.site-search::-webkit-input-placeholder {
 	color: #ffffff;
 }
 
-input[type="search"]::-ms-input-placeholder {
+.site-search::-ms-input-placeholder {
 	color: #ffffff;
 }
 
-input[type="search"]:-ms-input-placeholder {
+.site-search:-ms-input-placeholder {
 	color: #ffffff;
 }
 
-input[type="search"]::placeholder {
+.site-search::placeholder {
 	color: #ffffff;
 }
 
@@ -3136,7 +3148,7 @@ input[type="search"]::placeholder {
 	opacity: 0.5;
 }
 
-.container-footer2 p {
+.container-footer2 > p {
 	display: block;
 
 	width: 230px;
@@ -3192,8 +3204,8 @@ input[type="search"]::placeholder {
 	-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 
-	width: 130px;
-	margin: 36px 19px 31px 16px;
+	width: 129px;
+	margin: 36px 20px 31px 16px;
 }
 
 .social li {
@@ -3216,15 +3228,13 @@ input[type="search"]::placeholder {
 .footer-copyright2 {
 	margin: 0;
 	padding: 0;
-	width: 140px;
-	margin-left: 48px;
+	margin-left: 51px;
 }
 
 .footer-copyright1 {
 	margin: 0;
 	margin-left: 1px;
 	padding: 0;
-	width:140px;
 }
 
 .footer-copyright p {
@@ -3571,6 +3581,7 @@ input[type="search"]::placeholder {
 }
 
 .closed {
+	position: relative;
 	margin: 0;
 	padding: 0;
 
